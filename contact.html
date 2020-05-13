@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShaneWrites | Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 500px")>
+  <script src="https://kit.fontawesome.com/cd31ed9bc0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header bg-dark">
+    <div class="container">
+        <!-- <a href="index.html"><i class="fas fa-utensils fa-3x"></i></a> -->
+        <a class="nav-button" href="index.html"><i class="fas fa-pen-fancy fa-3x"></i></a>
+        <ul class="navbar">
+          <li class="py-1"><a href="index.html">Home</a></li>
+          <li class="py-1"><a href="about.html">About Me</a></li>
+          <li class="py-1"><a href="contact.html" class="current">Contact Me</a></li>
+        </ul>
+    </div>
+  </header>
+
+  <section id="contact-section">
+    <div class="container">
+      <h2 id="contact-colour">Contact <span id="contact-colour-secondary">Me</span></h2>
+      <p>Please fill out the form below to submit an enquiry</p>
+      <form action="form.php" id="contact-form">
+        <div class="form-item">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="form-item">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="form-item">
+          <label for="message">Message</label>
+          <textarea type="textarea" name="message" id="message"></textarea>
+        </div>
+        <div id="form-submit">
+          <a href="form.php" class="btn">Submit</a>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section id="info">
+    <div class="box bg-dark" id="copywriting">
+      <i class="fas fa-phone fa-3x py-1"></i>
+      <h3 class="py-1">Phone Number</h3>
+      <p>0492 184 245</p>
+    </div>
+    <div class="box bg-dark" id="copywriting">
+      <i class="fas fa-envelope fa-3x py-1"></i>
+      <h3 class="py-1">Email Address</h3>
+      <p>shanewrites@gmail.com</p>
+    </div>
+    <div class="box bg-dark" id="copywriting">
+      <i class="fas fa-map-marker-alt fa-3x py-1"></i>
+      <h3 class="py-1">Address</h3>
+      <p>32 Albert Street, Brunswick, Melbourne, 3056, Australia</p>
+    </div>
+  </section>
+
+  <footer>
+    <h3>ShaneWrites &copy; 2020 All Rights Reserved</h3>
+  </footer>
+</body>
+</html>

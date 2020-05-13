@@ -1,0 +1,74 @@
+/* Responsive Design */
+
+/* Header */
+header {
+  text-align: center;
+}
+
+header .container {
+  padding: 0;
+}
+
+header a, header ul,
+header ul li, #home-info .info-right,
+.box, #about-main-right img,
+#about-main-left
+ {
+  float: none;
+  width: 100%;
+}
+
+/* Showcase */
+#showcase {
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  padding-top: 50px;
+  margin-top: 0px;
+}
+
+#showcase .showcase-content p {
+  padding-top: 10px;
+}
+
+/* Home Info */
+#home-info {
+  height: 450px;
+}
+
+#home-info .info-left {
+  display: none;
+}
+
+#home-info .info-right {
+  padding: 40px;
+}
+
+/* Features */
+
+/* About Info */
+#about-main {
+  height: 1000px;
+  text-align: center;
+}
+
+#about-info .info-right img {
+  margin-top: 30px;
+}
+#about-main h2 {
+  line-height: 0.8;
+  margin-bottom: 30px;
+}
+
+/* Testimonials */
+#about-testimonials {
+  padding-top: 50px;
+  height: 1300px;
+}
+
+/* Contact Us */
+#info .box:not(:last-child) {
+  border-bottom: 5px dotted #fff;
+}
+
